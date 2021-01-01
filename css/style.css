@@ -1,0 +1,68 @@
+body {
+    background: url(../img/KGAAAgOaj-A-1920.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.container {
+    height: 100vh;
+    width: 300px;
+    border-radius: 25px;
+    background-color: rgb(66, 63, 63);
+    margin: auto;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.start {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background: black;
+    color: rgb(197, 2, 2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 20px;
+    box-shadow: 2px 5px 5px rgb(59, 3, 3);
+}
+.progress-wrap {
+    border: 4px solid black;
+    border-radius: 10px;
+    margin: 20px auto;
+    min-height: 50px;
+    width: 300px;
+    max-width: 90%;
+    margin-bottom: 50px;
+}
+.progress-line {
+    height: 50px;
+    background: rgb(3, 3, 182);
+    width: 0;
+    transition: all ease 1s;
+}
+.treadle {
+    width: 200px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 24px;
+    background: url(../img/474_shop_items_catalog_image29624.png);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transition: all ease .5s;
+    transform: perspective(205px) rotateX(0deg);
+    box-shadow: 2px 5px 5px black;
+}
+.treadle-push {
+    transform: perspective(205px) rotateX(14deg);
+    transition: all ease .5s;
+    box-shadow: 5px 5px 10px black;
+}
